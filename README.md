@@ -1,7 +1,7 @@
 ## Open API v3 Client Code Generator
 This package is a yeoman generator for swagger codegen CLI. Requires the installation of an appropriate version of the [CLI](https://mvnrepository.com/artifact/io.swagger.codegen.v3/swagger-codegen-cli). 
 
-After copying the jar file to a directory of your choice, set the environmental variable **SWAGGER_CODEGEN_CLI** to the directory where the cli file is located.
+After copying the jar file to a directory of your choice, set the environment variable **SWAGGER_CODEGEN_CLI** to the directory where the cli file is located.
 
 Then you need to install the generator globally with yarn or npm;
 
