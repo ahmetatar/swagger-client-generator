@@ -27,7 +27,7 @@ module.exports = class extends Generator {
 
     fs.rm(dir, { recursive: true, force: true }, (err) => {
       if (err) {
-        throw err;
+        return this.log('An error occured deleting directory');
       }
 
       this.log(`${dir} directory is deleted`);
