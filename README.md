@@ -22,3 +22,10 @@ yo swagger-client
 ```
 
 ![image](https://user-images.githubusercontent.com/3602465/166308499-a2688095-6e02-4f52-b821-cad3e33e84b9.png)
+
+Make sure you run build before publishing the package to the registry after production is complete.
+
+```shell
+yarn install or npm install
+yarn build
+```
